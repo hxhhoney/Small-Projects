@@ -1,0 +1,70 @@
+Start 5/26/2011 3:55:23 PM
+
+-------------------- Mode ---------------------
+Mode
+Live
+-------------------- Mode  End ----------------
+
+-------------------- MUM Units and Home Stations ---------------------
+Units	Stations
+SE02    SH02
+SE03    SH03
+SE06    SH06
+SE07    SH07
+SE08    SH08
+SE10    SH10
+SE11    SH11
+SE12    SH12
+SE13    SH13
+SE15    SH15
+SQ04    SH04
+SQ05    SH05
+SQ09    SH09
+SQ17    SH17
+SQ18    SH18
+SR01    SH01
+SR02    SH02
+SR04    SH04
+SR10    SH10
+STW1    SH01
+SE132    SH13V
+STE08    SH08V
+SE14    SH14
+SE142    SH14V
+-------------------- MUM Units and Home Stations  End ----------------
+
+-------------------- All UsingTCPIPCAD Unit Status and Home Stations ---------------------
+Units	Status	Stations	IncidentType
+SE02	Available	SH02	
+SE03	-999-	SH03	
+SE06	-999-	SH06	
+SE07	-999-	SH07	
+SE08	-999-	SH08	
+SE10	-999-	SH10	
+SE11	-999-	SH11	
+SE12	-999-	SH12	
+SE13	-999-	SH13	
+SE15	-999-	SH15	
+SQ04	-999-	SH04	
+SQ05	-999-	SH05	
+SQ09	-999-	SH09	
+SQ17	-999-	SH17	
+SQ18	-999-	SH18	
+SR01	-999-	SH01	
+SR02	-999-	SH02	
+SR04	-999-	SH04	
+SR10	Available	SH10	
+STW1	Available	SH01	
+SE132	Available	SH13V	
+STE08	Available	SH08V	
+SE14	Available	SH14	
+SE142	Available	SH14V	
+-------------------- All UsingTCPIPCAD Unit Status and Home Stations  End ----------------
+
+05/26/11 15:56:22		STW1	SH06	Available	SH06	Available		05/26/11 15:56:22			
+05/26/11 15:56:22		SE142	SH07	Available	SH07	Available		05/26/11 15:56:22			
+05/26/11 15:56:22		SE14	SH17	Available	SH17	Available		05/26/11 15:56:22			
+05/26/11 15:56:22		STE08	SH08	Available	SH08	Available		05/26/11 15:56:22			
+05/26/11 16:56:22		SE132	SH13	Available	SH13	Available		05/26/11 17:56:22	
+
+		

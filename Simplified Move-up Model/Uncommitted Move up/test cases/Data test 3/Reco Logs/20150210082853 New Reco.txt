@@ -1,0 +1,6 @@
+
+Time	               Recommendation	                                             TravelTime	         
+09:57:45            	Move unit 'SQ04' from station 'SH04' to station 'SH02'      	2                   
+13:57:36            	Move unit 'SR02' from station 'SH02' to station 'SH04'      	2                   
+14:21:54            	Move unit 'SE10' from station 'SH10' to station 'SH01'      	2                   
+14:22:24            	Move unit 'SQ04' from station 'SH04' to station 'SH02'      	3                   

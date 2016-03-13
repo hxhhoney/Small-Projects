@@ -1,0 +1,125 @@
+#(1)This function is used to classify the move-up
+def classification(x,y,z,k,r,t,v):
+
+    #x is Durition(is an integer)
+    #y is move-up location(2 by 1 matrix, coordinate)
+    #z is incident location(2 by 1 matrix,coordinate)
+    #k is original location where the move-up come from(2 by 1 matrix, coordinate)
+    #Assume the cover radias is r
+    #t is desired target time
+    #v is a constant value reflects speed
+
+
+    if x>10 and x<600:
+        #print("The move-up is a Legitimate Move-up.")
+        a=1
+
+        if (z[1]-y[1])**2+(z[0]-y[0])**2<=r**2:
+            #print("The move-up is a Productive Move-up.")
+            b=1
+            ##The Incident occurred in the area covered by the Move-Up location
+            ##Here we just use Euclidean distance, we might have another function to find out distance later.
+
+            if (z[1]-k[1])**2+(z[0]-k[0])**2>=r**2:
+                #print("The move-up is an Accurate Move-up. ")
+                c=1
+                
+                if (z[1]-y[1])**2+(z[0]-y[0])**2<=(v*t)**2:
+                    #print("The response time is Less than desired time target.")
+                    d=1
+                else:
+                   #print ("The response time is More than desired time target")
+                   d=0
+            else:
+                #print("The move-up is an Inaccurate Move-up.")
+                c=0
+                d=0
+        else:
+              #print("The move-up is a unproductive Move-up. ")
+              b=0
+              c=0
+              d=0
+        
+    else:
+          #print("The move-up is a Illegitimate Move-up ")
+          a=0
+          b=0
+          c=0
+          d=0
+    return[a,b,c,d]
+
+##h1=classification(500,[0,1],[0,2],[0,5],2,3,1)
+##h2=classification(700,[0,1],[0,2],[0,5],2,3,1)
+
+
+#(2)This function is used to count the number of different move-ups in the document.
+def hxh(A):
+    #A is a Matrix, every row of it includes all information about x,y,z,k,r,t,v(see function classification)
+    n=len(A)
+    i=0
+    count=[0,0,0,0]
+    while i<n:
+        a=A[i]
+        x=a[0]
+        y=a[1]
+        z=a[2]
+        k=a[3]
+        r=a[4]
+        t=a[5]
+        v=a[6]
+        temp=classification(x,y,z,k,r,t,v)
+        count=[m+p for m,p in zip(count,temp)]
+        i= i+1
+    return (count)
+    
+#hxh([[500,[0,1],[0,2],[0,5],2,3,1],[400,[0,7],[0,2],[0,1],1,1,1]])
+
+##Then we get a vector with 4 elements.
+##The first element stands for the number of all Legitimate Move-up in matrix A.
+##The second element stands for the number of all Productive Move-up in matrix A.
+##The third element stands for the number of all Accurate Move-up in matrix A.
+##The fourth element stands for the number of times that the the response time is Less than desired time target
+
+def sta(A):
+    n=len(A)
+    result=hxh(A)
+    Legitimate=float(result[0])/n
+    Illegitimate=1-Legitimate
+    Pro=float(result[1])/result[0]
+    Unpro=1-Pro
+    Accurate=float(result[2])/result[1]
+    Inaccurate=1-Accurate
+    Less=float(result[3])/result[2]
+    More=1-Less
+    print("The total Move-up number is:")
+    print n
+    print("The number of Legitimate Move-up is:")
+    print result[0]
+    print("The number of Productive Move-up is:")
+    print result[1]
+    print("The number of Accurate Move-up is:")
+    print result[2]
+    print("The number of times that response time is less than the target is:")
+    print result[3]
+    print("The percentage of Legitimate out of all the move-ups:")
+    print Legitimate
+    print("The percentage of Productive out of all the move-ups:")
+    print Pro
+    print("The percentage of Accurate out of all the move-ups:")
+    print Accurate
+    print("The percentage of number of times that response time is less than the target is:")
+    print Less
+    
+    return (Legitimate,Illegitimate,Pro,Unpro,Accurate,Inaccurate,Less, More)
+
+sta([[500,[0,1],[0,2],[0,5],2,3,1],[400,[0,7],[0,2],[0,1],2,3,1]])
+
+
+
+
+    
+    
+    
+    
+    
+

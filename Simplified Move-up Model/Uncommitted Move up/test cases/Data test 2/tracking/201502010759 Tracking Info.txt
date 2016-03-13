@@ -1,0 +1,42 @@
+Start 02/01/2015 07:59:06
+
+-------------------- Mode ---------------------
+Mode
+Live
+-------------------- Mode  End ----------------
+
+-------------------- MUM Units and Home Stations ---------------------
+Units	Stations
+SE02    SH02
+SE06    SH06
+SE08    SH08
+SE10    SH10
+SE15    SH15
+-------------------- MUM Units and Home Stations  End ----------------
+
+-------------------- All UsingTCPIPCAD Unit Status and Home Stations ---------------------
+Units	Status	Stations	IncidentType
+SE02	In Quarters	SH02	
+SE06	In Quarters	SH06	
+SE08	In Quarters	SH08	
+SE10	Available	SH10	
+SE15	Dispatched	SH15	MESA
+-------------------- All UsingTCPIPCAD Unit Status and Home Stations  End ----------------
+02/01/15 08:13:09		SE02	SH02	In Quarters	SH02	In Quarters	HAZMAT	02/01/15 08:13:09			
+02/01/15 08:15:24		SE02	SH02	Dispatched	SH02	Responding	HAZMAT	02/01/15 08:15:24			
+02/01/15 08:20:29		SE02	SH02	Responding	SH02	OnScene	HAZMAT	02/01/15 08:20:29					
+02/01/15 10:11:29		SE15	SH15	OnScene	SH15	Available		02/01/15 10:11:29			
+02/01/15 10:12:29		SE08	SH08	In Quarters	SH08	Dispatched	MESA	02/01/15 10:12:29			
+02/01/15 10:13:44		SE08	SH08	Dispatched	SH08	Responding	MESA	02/01/15 10:13:44			
+02/01/15 10:15:29		SE08	SH08	Responding	SH08	OnScene	MESA	02/01/15 10:15:29					
+02/01/15 10:19:14		SE08	SH08	OnScene	SH08	Available		02/01/15 10:19:14			
+02/01/15 10:20:09		SE02	SH02	In Quarters	SH02	In Quarters	HAZMAT	02/01/15 08:13:09
+02/01/15 10:29:00		SE15	SH15	Available	SH10	In Quarters		02/01/15 10:29:00				
+02/01/15 10:50:31		SE06	SH06	Available	SH06	Dispatched	ALARMS - NON-RES	02/01/15 10:50:31		
+02/01/15 10:50:46		SE06	SH06	Dispatched	SH06	Responding	ALARMS - NON-RES	02/01/15 10:50:46		
+02/01/15 10:54:16		SE06	SH06	Responding	SH06	OnScene	ALARMS - NON-RES	02/01/15 10:54:17			
+02/01/15 10:54:31		SE06	SH06	OnScene	SH06	In Quarters		02/01/15 10:54:32				
+02/01/15 10:57:17		SE15	SH15	In Quarters	SH10	In Quarters		02/01/15 10:57:17			
+02/01/15 11:07:17		SE06	SH06	Available	SH06	In Quarters		02/01/15 11:07:17			
+02/01/15 11:10:14		SE08	SH08	OnScene	 SH08	In Quarters		02/01/15 10:19:14
+	

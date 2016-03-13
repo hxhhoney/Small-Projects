@@ -1,0 +1,5 @@
+
+Time	               Recommendation	                                             TravelTime	         
+14:58:46            	Move unit 'DNQ2' from station 'DNV2' to station 'LYBE'      	1                   
+15:38:02            	Move unit 'SQ18' from station 'SH18' to station 'SH09'      	4                   
+15:38:02            	Move unit 'SR01' from station 'SH01' to station 'SH10'      	2                   

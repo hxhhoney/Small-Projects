@@ -1,0 +1,4 @@
+
+
+Time	               Recommendation	                                             TravelTime	         
+08:13:09            	Move unit 'SE02' from station 'SH02' to station 'SH06'    	3                  

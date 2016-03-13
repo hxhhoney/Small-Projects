@@ -1,0 +1,26 @@
+Start 02/01/2015 11:11:56
+
+-------------------- Mode ---------------------
+Mode
+Live
+-------------------- Mode  End ----------------
+
+-------------------- MUM Units and Home Stations ---------------------
+Units	Stations
+SE02    SH02
+SE06    SH06
+SE08    SH08
+SE10    SH10
+SE15    SH15
+-------------------- MUM Units and Home Stations  End ----------------
+
+-------------------- All UsingTCPIPCAD Unit Status and Home Stations ---------------------
+Units	Status	Stations	IncidentType			
+SE02	In Quarters	SH02	
+SE06	In Quarters	SH06	
+SE08	In Quarters	SH08	
+SE10	Available	SH10		
+SE15	Dispatched	SH15	MESA	
+-------------------- All UsingTCPIPCAD Unit Status and Home Stations  End ----------------
+		
+02/01/15 11:27:34		SE15	SH15	In Quarters	SH15	Available		
