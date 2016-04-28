@@ -1,0 +1,52 @@
+package com.hxh.solar;
+
+import java.awt.Graphics;
+import java.awt.Image;
+
+import com.hxh.util.GameUtil;
+
+public class Planet extends Star{
+	
+	double longAxis;
+	double shortAxis;
+	double speed;
+	double degree;
+	Star center;
+	
+	
+	public void draw(Graphics g){
+		g.drawImage(img,(int)x,(int)y,30,30,null);
+		
+		x=center.x+center.width/2+longAxis*Math.cos(degree);
+		y=center.y+center.depth/2+shortAxis*Math.sin(degree);
+		
+		degree +=speed;
+		
+	}
+	
+	
+	public Planet(Image img,double x,double y){
+		super(img,x,y);
+	}
+	
+
+	public Planet(Star center, String imgpath, double longAxis, double shortAxis, double speed) {
+		
+		this.x=center.x+longAxis;//inherit from Star
+		this.y=center.y;
+		this.img=GameUtil.getImage(imgpath);
+		
+		this.longAxis = longAxis;
+		this.shortAxis = shortAxis;
+		this.speed = speed;
+		this.center = center;
+		
+		this.width= img.getWidth(null);
+		this.depth= img.getHeight(null);
+	}
+	public Planet(String imgpath,double x,double y){
+		super(imgpath,x,y);
+	}
+	
+
+}

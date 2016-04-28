@@ -1,0 +1,28 @@
+package com.hxh.util;
+
+import java.awt.Image;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+import java.net.URL;
+
+import javax.imageio.ImageIO;
+
+/**
+ * GameUtil class, for tools.
+ * @author DuckCathy
+ *Methods are always static
+ */
+
+public class GameUtil {
+	public static Image getImage(String path){//Image is a class
+		URL u=GameUtil.class.getClassLoader().getResource(path);
+		BufferedImage img=null;
+		try {
+			img=ImageIO.read(u);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return img;
+	}
+}

@@ -1,0 +1,26 @@
+package com.hxh.solar;
+
+import java.awt.Graphics;
+import java.awt.Image;
+
+import com.hxh.util.GameUtil;
+import com.hxh.util.MyFrame;
+
+/**
+ * Main Window for SolarSystem
+ * @author DuckCathy
+ *
+ */
+
+public class SolarFrame extends MyFrame{
+	Image bg=GameUtil.getImage("images/JUPITER.JPG");
+	
+	public void paint(Graphics g){
+		g.drawImage(bg, 0, 0, null);
+
+	}
+	public static void main(String[] args){
+		new SolarFrame().launchFrame();
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.hxh.solar;
+
+import com.hxh.util.MyFrame;
+
+/**
+ * Main Window for SolarSystem
+ * @author DuckCathy
+ *
+ */
+
+public class SolarFrame extends MyFrame{
+
+}
