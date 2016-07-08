@@ -1,0 +1,13 @@
+package com.hxh.ticket;
+
+public class PlaneSchedule {
+	String date;
+	String airplane;
+	String departuretime;
+	String arrivetime;
+	String from;
+	String to;
+	
+	String boarding
+	
+}
