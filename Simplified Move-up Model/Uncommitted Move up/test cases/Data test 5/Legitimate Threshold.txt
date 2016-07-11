@@ -1,4 +1,0 @@
-Bigger Than:
-5
-Less Than:
-600

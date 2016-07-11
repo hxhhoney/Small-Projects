@@ -1,4 +1,4 @@
-This repository contains some projects I made for fun or practice. 
-# Simplified-Move-up-Module
+This repository contains some small projects and tools I made for fun.
+# Tools and Projects
 
 

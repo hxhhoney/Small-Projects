@@ -1,0 +1,7 @@
+package com.hxh.ticket;
+
+public class Identifier {
+	String country;
+	String type;
+	String Number;
+}

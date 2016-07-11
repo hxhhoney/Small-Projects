@@ -1,0 +1,8 @@
+package com.hxh.ticket;
+
+public class Traveler {
+	String name;
+	boolean sex;
+	Identifier id;
+
+}
